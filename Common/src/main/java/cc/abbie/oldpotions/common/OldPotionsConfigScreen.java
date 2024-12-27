@@ -49,9 +49,8 @@ public class OldPotionsConfigScreen extends Screen {
 
     @Override
     public void render(@Nonnull GuiGraphics gui, int x, int y, float delta) {
-        renderBackground(gui, x, y, delta);
-        gui.drawCenteredString(font, title, width / 2, 15, -1);
         super.render(gui, x, y, delta);
+        gui.drawCenteredString(font, title, width / 2, 15, -1);
     }
 
     @Override
