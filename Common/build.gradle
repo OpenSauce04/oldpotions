@@ -1,12 +1,12 @@
 plugins {
     id 'java'
-    id 'agency.highlysuspect.minivan'
+    id 'org.spongepowered.gradle.vanilla'
     id 'maven-publish'
 }
 
 archivesBaseName = "${mod_name}-common-${minecraft_version}"
 
-minivan {
+minecraft {
     version(minecraft_version)
 }
 
